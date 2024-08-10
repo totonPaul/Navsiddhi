@@ -1,0 +1,37 @@
+/* Slideshow Container Styling */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Set a max-width to prevent the slideshow from taking up the entire screen */
+  margin: 0 auto;   /* Center the slideshow container horizontally */
+  padding: 2px;    /* Add padding around the slideshow */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.slideshow-container img {
+  width: 100%;       /* Make sure the image fills the container */
+  height: auto;      /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area of the container */
+  border-radius: 10px; /* Optional: Rounded corners for the image */
+}
+
+.slide-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1; /* Ensure the buttons are above the image */
+}
+
+.slide-control.left {
+  left: 10px;
+}
+
+.slide-control.right {
+  right: 10px;
+}
