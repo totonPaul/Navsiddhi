@@ -104,7 +104,7 @@ const BlogDetailsPage = () => {
                     technology-driven world.
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    The NEP 2020 focus on programming is not merely about
+                    The NEP 2020 focuses on programming is not merely about
                     introducing a new subject but is a strategic move to align
                     education with the evolving demands of the job market. By
                     incorporating programming and coding into the early stages
