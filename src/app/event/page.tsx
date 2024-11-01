@@ -15,7 +15,7 @@ const EventPage = () => {
     <>
       <Breadcrumb
         pageName="Events and Activities"
-        description="Through this page, You can keep yourself updated with the latest events and activities associated with Navsiddhi Group"
+        description="ClickVidya Coding classes is live and admissions are going on, visit clickvidya.navsiddhi.in for more details."
       />
       {/* <AboutSectionOne />  */}
       <AboutSectionTwo />
