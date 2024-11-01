@@ -33,7 +33,7 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "EDUCATION",
-        path: "/",
+        path: "https://clickvidya.navsiddhi.in/",
         newTab: false,
       },
       {

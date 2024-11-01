@@ -46,15 +46,26 @@ const AboutEducation = () => {
                     <List text="Software Development" />
                   </div>
                 </div>
+                <a
+                  href="https://clickvidya.navsiddhi.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-700"
+                >
+                  Visit ClickVidya
+                </a>
               </div>
             </div>
 
-            <div className="w-full h-[200px] px-4 lg:w-1/2">
-              <div className="relative mx-auto max-w-[500px] lg:mr-0" style={{ height: 'auto', width: '100%' }}>
+            <div className="h-[200px] w-full px-4 lg:w-1/2">
+              <div
+                className="relative mx-auto max-w-[500px] lg:mr-0"
+                style={{ height: "auto", width: "100%" }}
+              >
                 <Image
                   src="/images/slideshow/education.png"
                   alt="about-image"
-                  width={500}  // Set a fixed width
+                  width={500} // Set a fixed width
                   height={300} // Reduced height
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />

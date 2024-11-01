@@ -14,6 +14,17 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
           {paragraph}
         </p>
+        {feature.id === 1 && (
+        <a
+          href="https://clickvidya.navsiddhi.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-block rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-700"
+        >
+          Visit ClickVidya
+        </a>
+      )}
+
       </div>
     </div>
   );

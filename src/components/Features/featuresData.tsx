@@ -14,10 +14,10 @@ const featuresData: Feature[] = [
     ),
     title: "Programming Courses",
     paragraph:
-      "Coming Soon!!",
+      "",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
       "Coming Soon!",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
