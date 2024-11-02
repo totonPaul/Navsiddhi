@@ -3,6 +3,7 @@ import AboutHealthcare from "@/components/About/AboutHealthcare";
 import AboutSoftware from "@/components/About/AboutSoftware";
 import AboutAgriculture from "@/components/About/AboutAgriculture";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import ManagingDirector from "@/components/About/ManagingDirector";
 
 import { Metadata } from "next";
 
@@ -22,6 +23,7 @@ const AboutPage = () => {
           Our vision is to create a future where technology, education, and healthcare are accessible to all, driving sustainable growth and preserving traditional practices.
         `}
       />
+      <ManagingDirector/>
       
       <AboutEducation />
       <AboutHealthcare />
